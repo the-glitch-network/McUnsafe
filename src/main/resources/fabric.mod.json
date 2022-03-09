@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mcunsafe",
+  "version": "${version}",
+  "name": "McUnsafe",
+  "description": "Very Experimental Unsafe Mass Transformer",
+  "authors": [
+    "KJP12"
+  ],
+  "contact": {
+    "sources": "https://github.com/the-glitch-network/McUnsafe",
+    "issues": "https://github.com/the-glitch-network/McUnsafe/issues",
+    "discord": "https://discord.gg/EmPS9y9"
+  },
+  "license": [
+    "MPL-2.0"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "gud_asm": [
+      "net.kjp12.mcunsafe.asm.Asm"
+    ]
+  },
+  "depends": {
+    "gud_asm": "*"
+  }
+}
